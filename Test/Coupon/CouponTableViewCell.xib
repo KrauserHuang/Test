@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CouponTableViewCell" rowHeight="138" id="lfM-fo-jmQ" customClass="CouponTableViewCell" customModule="Test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="138"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lfM-fo-jmQ" id="bBh-0X-D11">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="138"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ei0-lU-NYe">
+                        <rect key="frame" x="5" y="5" width="128" height="128"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="128" id="Vze-Bq-Xp6"/>
+                            <constraint firstAttribute="width" constant="128" id="ZS5-AA-0sm"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ob6-G8-CfB">
+                        <rect key="frame" x="138" y="29.5" width="236" height="63.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="店家地址:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlX-my-BNF">
+                        <rect key="frame" x="138" y="98" width="236" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="使用期限 2020-06-01 ~ 2020-06-30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="he9-3c-kDu">
+                        <rect key="frame" x="138" y="118" width="236" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="r9S-If-bUR">
+                        <rect key="frame" x="379" y="5" width="30" height="128"/>
+                        <color key="backgroundColor" red="0.87879568340000003" green="0.52057856319999996" blue="0.32935374979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="ay5-0N-vfw"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="使用">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="useAction:" destination="lfM-fo-jmQ" eventType="touchUpInside" id="eMy-Vy-Z4y"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="桂花爺爺太陽餅50元折價券" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Gx-9f-UYk">
+                        <rect key="frame" x="138" y="5" width="236" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4Gx-9f-UYk" firstAttribute="leading" secondItem="Ei0-lU-NYe" secondAttribute="trailing" constant="5" id="1Gg-ea-smB"/>
+                    <constraint firstAttribute="trailing" secondItem="r9S-If-bUR" secondAttribute="trailing" constant="5" id="3wO-zq-MOv"/>
+                    <constraint firstItem="he9-3c-kDu" firstAttribute="leading" secondItem="Ei0-lU-NYe" secondAttribute="trailing" constant="5" id="4tP-2A-QGN"/>
+                    <constraint firstItem="r9S-If-bUR" firstAttribute="leading" secondItem="dlX-my-BNF" secondAttribute="trailing" constant="5" id="8TB-Ka-oTs"/>
+                    <constraint firstItem="r9S-If-bUR" firstAttribute="leading" secondItem="he9-3c-kDu" secondAttribute="trailing" constant="5" id="Axe-jG-nJX"/>
+                    <constraint firstItem="4Gx-9f-UYk" firstAttribute="top" secondItem="bBh-0X-D11" secondAttribute="top" constant="5" id="C97-ix-Y7z"/>
+                    <constraint firstItem="Ei0-lU-NYe" firstAttribute="top" secondItem="bBh-0X-D11" secondAttribute="top" constant="5" id="EHu-0x-5BK"/>
+                    <constraint firstAttribute="bottom" secondItem="Ei0-lU-NYe" secondAttribute="bottom" constant="5" id="Gb8-vu-b3R"/>
+                    <constraint firstItem="ob6-G8-CfB" firstAttribute="leading" secondItem="Ei0-lU-NYe" secondAttribute="trailing" constant="5" id="Jau-VF-Hl9"/>
+                    <constraint firstItem="r9S-If-bUR" firstAttribute="leading" secondItem="4Gx-9f-UYk" secondAttribute="trailing" constant="5" id="Knq-ZE-I0R"/>
+                    <constraint firstItem="he9-3c-kDu" firstAttribute="top" secondItem="dlX-my-BNF" secondAttribute="bottom" constant="5" id="Qce-Dy-k89"/>
+                    <constraint firstItem="r9S-If-bUR" firstAttribute="leading" secondItem="ob6-G8-CfB" secondAttribute="trailing" constant="5" id="RT4-PO-H8M"/>
+                    <constraint firstAttribute="bottom" secondItem="r9S-If-bUR" secondAttribute="bottom" constant="5" id="WVG-Jb-Gpd"/>
+                    <constraint firstItem="ob6-G8-CfB" firstAttribute="top" secondItem="4Gx-9f-UYk" secondAttribute="bottom" constant="5" id="aQ8-jC-4Mi"/>
+                    <constraint firstItem="Ei0-lU-NYe" firstAttribute="leading" secondItem="bBh-0X-D11" secondAttribute="leading" constant="5" id="jhC-UE-Buu"/>
+                    <constraint firstItem="dlX-my-BNF" firstAttribute="leading" secondItem="Ei0-lU-NYe" secondAttribute="trailing" constant="5" id="rdP-Zs-QHN"/>
+                    <constraint firstAttribute="bottom" secondItem="he9-3c-kDu" secondAttribute="bottom" constant="5" id="tFC-1C-Dcf"/>
+                    <constraint firstItem="dlX-my-BNF" firstAttribute="top" secondItem="ob6-G8-CfB" secondAttribute="bottom" constant="5" id="uHU-OV-A2q"/>
+                    <constraint firstItem="r9S-If-bUR" firstAttribute="top" secondItem="bBh-0X-D11" secondAttribute="top" constant="5" id="uam-zA-iz5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="he9-3c-kDu" id="dEi-6l-g2l"/>
+                <outlet property="descriptionLabel" destination="ob6-G8-CfB" id="sdf-cu-X7G"/>
+                <outlet property="itemImageView" destination="Ei0-lU-NYe" id="c9B-Ox-4Vk"/>
+                <outlet property="shopAddressLabel" destination="dlX-my-BNF" id="sVz-mT-GCv"/>
+                <outlet property="titleLabel" destination="4Gx-9f-UYk" id="3P3-Fq-veW"/>
+                <outlet property="useButton" destination="r9S-If-bUR" id="rEX-jX-Qd6"/>
+            </connections>
+            <point key="canvasLocation" x="-5000" y="510.9375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
