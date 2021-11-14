@@ -65,4 +65,6 @@ class TriangleMapViewController: UIViewController, AVCaptureMetadataOutputObject
         currentLat = "\(currentLocation.coordinate.latitude)"
         currentLong = "\(currentLocation.coordinate.longitude)"
     }
+    
+    //Hello
 }
