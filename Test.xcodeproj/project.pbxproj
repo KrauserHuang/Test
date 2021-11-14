@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F60C4CD273CC67B0080C7BD /* TriangleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60C4CC273CC67B0080C7BD /* TriangleMapViewController.swift */; };
+		4F60C4CF273CC6FC0080C7BD /* TriangleMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F60C4CE273CC6FC0080C7BD /* TriangleMapViewController.xib */; };
 		4F6D73D7273B6FBF0095BF0A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D73D6273B6FBF0095BF0A /* LoginVC.swift */; };
 		4F9236EF2738EA420038ADDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9236EE2738EA420038ADDE /* AppDelegate.swift */; };
 		4F9236F12738EA420038ADDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9236F02738EA420038ADDE /* SceneDelegate.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F60C4CC273CC67B0080C7BD /* TriangleMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleMapViewController.swift; sourceTree = "<group>"; };
+		4F60C4CE273CC6FC0080C7BD /* TriangleMapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TriangleMapViewController.xib; sourceTree = "<group>"; };
 		4F6D73D6273B6FBF0095BF0A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		4F9236EB2738EA420038ADDE /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9236EE2738EA420038ADDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F60C4CA273CC6470080C7BD /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				4F60C4CB273CC6500080C7BD /* Triangle */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		4F60C4CB273CC6500080C7BD /* Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				4F60C4CC273CC67B0080C7BD /* TriangleMapViewController.swift */,
+				4F60C4CE273CC6FC0080C7BD /* TriangleMapViewController.xib */,
+			);
+			path = Triangle;
+			sourceTree = "<group>";
+		};
 		4F9236E22738EA420038ADDE = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +119,7 @@
 		4F9236ED2738EA420038ADDE /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				4F60C4CA273CC6470080C7BD /* AR */,
 				4F923735273B58560038ADDE /* Login */,
 				4F923727273A5A5C0038ADDE /* Coupon */,
 				4F92371B273A1C970038ADDE /* Model */,
@@ -242,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F9236FB2738EA460038ADDE /* LaunchScreen.storyboard in Resources */,
+				4F60C4CF273CC6FC0080C7BD /* TriangleMapViewController.xib in Resources */,
 				4F9236F82738EA460038ADDE /* Assets.xcassets in Resources */,
 				4F9236F62738EA420038ADDE /* Main.storyboard in Resources */,
 				4F923731273A65DD0038ADDE /* CouponTableViewCell.xib in Resources */,
@@ -255,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F60C4CD273CC67B0080C7BD /* TriangleMapViewController.swift in Sources */,
 				4F9236F32738EA420038ADDE /* ViewController.swift in Sources */,
 				4F923715273916C60038ADDE /* PrivacyVC.swift in Sources */,
 				4F9236EF2738EA420038ADDE /* AppDelegate.swift in Sources */,
